@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Streamlit webpage layout
-st.title('Election News in Bangladesh')
+st.title('Election News in Bangladesh - Daily Star, TBS, New Age, BdNews, Prothom Alo')
 
 # Endpoint of your Node.js API
 api_url = 'https://bdelectionnews.b4a.app/electionnews'
