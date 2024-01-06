@@ -16,7 +16,7 @@ try:
             for item in news_data:
                 st.subheader(item.get('title', 'No Title'))
                 st.write(f"URL: {item.get('url', 'No URL')}")
-                st.write(f"Keyword: {item.get('keyword', 'No Keyword')}")
+                #st.write(f"Keyword: {item.get('keyword', 'No Keyword')}")
                 st.write(f"Source: {item.get('site', 'No Source')}")
                 st.write("---")
         else:
